@@ -6,7 +6,8 @@ export default function Home() {
   return (
       <>
           <header>
-            <h1 className="text-3xl font-bold text-center p-4">Image Gallery</h1>
+            <h1 className="text-3xl font-bold text-center p-4">Kopenhagen 2024</h1>
+          <h2 className="text-xl text-center">Eindrücke von der LK-Fahrt des Gymnasium St. Mauritz</h2>
           </header>
           <main className="flex flex-wrap gap-4 justify-center p-4">
               {imageList.map((imageName, index) => (
